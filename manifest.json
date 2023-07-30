@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "version": "0.1.0",
+  "name": "Skip disliked YouTube Music songs",
+  "description": "Skip disliked songs on YouTube Music because Google won't do it for you",
+  "content_scripts": [
+    {
+      "matches": ["https://music.youtube.com/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
